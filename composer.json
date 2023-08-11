@@ -1,0 +1,30 @@
+{
+    "name": "bingher/export_table",
+    "description": "export data list to excel xlsx",
+    "type": "library",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "phpoffice/phpspreadsheet": "^1.28"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bingher\\ExportTable\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hbh112233abc",
+            "email": "hbh112233abc@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "9.6.x-dev"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bingher\\ExportTableTest\\": "tests/"
+        }
+    }
+}
